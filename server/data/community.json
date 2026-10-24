@@ -1,0 +1,110 @@
+{
+  "services": [
+    {
+      "id": "s1",
+      "name": "Sanjibon Blood Bank",
+      "category": "Other",
+      "phone": "9073999620"
+    },
+    {
+      "id": "s2",
+      "name": "Bauria Electric Burning Ghat",
+      "category": "Other",
+      "phone": "9875645855"
+    },
+    {
+      "id": "s3",
+      "name": "Ambulance",
+      "category": "Ambulance",
+      "phone": "9732597023"
+    },
+    {
+      "id": "s4",
+      "name": "Ambulance",
+      "category": "Ambulance",
+      "phone": "9732969250"
+    },
+    {
+      "id": "s5",
+      "name": "Ambulance",
+      "category": "Ambulance",
+      "phone": "8389957252"
+    }
+  ],
+  "bus": [
+    {
+      "id": "b1",
+      "route": "Gadiara → Uluberia",
+      "name": "Gadiara - Uluberia",
+      "departure": "9:45 AM",
+      "arrival": "11:20 AM",
+      "duration": "1h 35m",
+      "fare": "N/A",
+      "active": true,
+      "stops": [
+        {
+          "name": "Shyampur",
+          "time": "10:10 AM"
+        }
+      ]
+    }
+  ],
+  "ferry": [
+    {
+      "id": "f1",
+      "route": "Nurpur → Gadiara",
+      "name": "Nurpur - Gadiara",
+      "departure": "6:40 AM",
+      "arrival": "6:55 AM",
+      "duration": "15m",
+      "fare": "N/A",
+      "active": true,
+      "stops": []
+    },
+    {
+      "id": "f2",
+      "route": "Gadiara → Nurpur",
+      "name": "Gadiara - Nurpur",
+      "departure": null,
+      "arrival": null,
+      "duration": "15m",
+      "fare": "N/A",
+      "active": true,
+      "stops": []
+    }
+  ],
+  "doctors": [],
+  "camps": [
+    {
+      "id": "c1",
+      "name": "Aporajeyo Blood Donation Camp",
+      "organizer": "Aporajeyo",
+      "date": "2025-09-14",
+      "time": "09:00 AM - 04:00 PM",
+      "location": "Shyampur Rani Marriage Hall, Shyampur",
+      "status": "Completed",
+      "collected": 110,
+      "target": 110,
+      "groups": [
+        "B-",
+        "A+",
+        "A-",
+        "B+",
+        "AB+",
+        "O-",
+        "O+",
+        "AB-"
+      ]
+    }
+  ],
+  "stats": {
+    "totalCamps": 2,
+    "upcoming": 0,
+    "ongoing": 0,
+    "donors": 0
+  },
+  "branding": {
+    "name": "Aporajeyo",
+    "bengali": "অপরাজেয়"
+  }
+}
